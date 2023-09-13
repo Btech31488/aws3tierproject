@@ -146,7 +146,7 @@ This repository provides a comprehensive guide for setting up a 3-tier AWS archi
     cd /var/www/html/phpMyAdmin/
     ```
     ```bash
-    change the name of the php file
+    #change the name of the php file
     mv config.sample.inc.php config.inc.php
     ```
     ```bash
