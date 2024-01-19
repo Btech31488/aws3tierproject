@@ -15,6 +15,7 @@ This repository provides a comprehensive guide for setting up a 3-tier AWS archi
 
 ### 2. **Subnet Creation**
 - **Public Subnets**:
+    - Before you create your subnets, make sure you filter your VPC to the newly created `My3TierVPC`
     - Repeat for 3 subnets: `10.0.1.0/24`, `10.0.2.0/24`, `10.0.3.0/24`:
         - Go to `Subnets -> Create subnet`.
             - Name: `PublicSubnetX` (Replace X with 1, 2, or 3)
