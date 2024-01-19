@@ -20,7 +20,7 @@ This repository provides a comprehensive guide for setting up a 3-tier AWS archi
         - Go to `Subnets -> Create subnet`.
             - Name: `PublicSubnetX` (Replace X with 1, 2, or 3)
             - VPC: `My3TierVPC`
-            - Availability Zone: Different for each subnet.
+            - Availability Zone: Different for each subnet (for me I used AZ a, b, c).
             - CIDR Block: Use the corresponding CIDR.
             - Click `Create`.
     
