@@ -25,10 +25,10 @@ This repository provides a comprehensive guide for setting up a 3-tier AWS archi
             - Click `Create`.
     
 - **Private Web Subnets**:
-    - Repeat as above for 3 subnets, naming them `PrivateWebSubnetX`.
+    - Repeat as above for 3 subnets using the CIDRs `10.0.4.0/24`, `10.0.5.0/24`, `10.0.6.0/24`, naming them `PrivateWebSubnetX`.
     
 - **Private DB Subnets**:
-    - Create 3 more subnets, naming them `PrivateDBSubnetX`.
+    - Create 3 more subnets using the CIDRs `10.0.7.0/24`, `10.0.8.0/24`, `10.0.9.0/24`, naming them `PrivateDBSubnetX`.
 
 ### 3. **Internet Gateway (IGW) Setup**
 - Go to `Internet Gateways -> Create internet gateway`.
