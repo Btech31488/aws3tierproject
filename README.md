@@ -167,7 +167,7 @@ Why opt for a 3-tier architecture? This architectural approach effectively tackl
           ```
 
 #### 2. **Create an Auto Scaling Group**
-- Navigate tp `EC2 -> Auto Scaling Group -> Create Auto Scaling Group`
+- Navigate to `EC2 -> Auto Scaling Group -> Create Auto Scaling Group`
 - Name group `webserver-asg` and choose the Launch Template you just created
 - Choose the webapp-vpc and select the 2 public subnet under the `Availabilty Zones and subnets`
 
