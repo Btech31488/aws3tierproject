@@ -305,7 +305,7 @@ ssh -i "whatever_you_name_key.pem" ec2-user@webserverdnsaddress.com
 ![3tier-step4-b2-1](https://github.com/Btech31488/aws3tierproject/assets/104148696/d3b18a82-dab1-4190-abe2-03c6d62dbb7a)
   ![3tier-step4-b2](https://github.com/Btech31488/aws3tierproject/assets/104148696/33028100-0134-45c6-824f-c670cef0bc2e)
 
-### 3. **Create RDS Database*
+### 3. **Create RDS Database**
 - Navigate back to the RDS Dashboard and select `Create Database`
 - Under "Engine Options" select `MySQL`
 
@@ -328,7 +328,7 @@ ssh -i "whatever_you_name_key.pem" ec2-user@webserverdnsaddress.com
 
 ![3tier-step4-c5](https://github.com/Btech31488/aws3tierproject/assets/104148696/71a722d6-449e-4a90-994d-a422d321e375)
 
-- For the security group select `Choose existing` and select the `db-sg` that we created. For the AX select `us-east-a`
+- For the security group select `Choose existing` and select the `db-sg` that we created. For the AZ select `us-east-a`
 
 ![3tier-step4-c6](https://github.com/Btech31488/aws3tierproject/assets/104148696/d60cf178-0c08-4308-bfe8-baca903efd34)
 
@@ -337,7 +337,7 @@ ssh -i "whatever_you_name_key.pem" ec2-user@webserverdnsaddress.com
 
 ![3tier-step4-c7](https://github.com/Btech31488/aws3tierproject/assets/104148696/4f9f148b-bcd9-4a1e-8e59-d5960859c342)
 
-### 4. **Connect to the Database*
+### 4. **Connect to the Database**
 - Once the RDS is provisioned, retrieve the endpoint address from the dashboard 
 
 ![3tier-step4-c8](https://github.com/Btech31488/aws3tierproject/assets/104148696/21a3b971-3b98-40eb-ab67-997d252d2e31)
