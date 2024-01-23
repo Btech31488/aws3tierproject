@@ -199,7 +199,7 @@ Why opt for a 3-tier architecture? This architectural approach effectively tackl
 
 ![3tier-step2-e-4](https://github.com/Btech31488/aws3tierproject/assets/104148696/6bdd4332-70e8-49cb-b24f-6451a1ef15fd)
 
-### Tier 2: Web tier (Backend)
+### Tier 2: App tier (Backend)
 
 ![3TierVPCArchTier2](https://github.com/Btech31488/aws3tierproject/assets/104148696/f34ebfaf-5f04-4e23-a076-d24f54cb85da)
 
